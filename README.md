@@ -29,3 +29,10 @@ Usage: `python grad-cam.py --image-path <path_to_image>`
 
 To use with CUDA:
 `python grad-cam.py --image-path <path_to_image> --use-cuda`
+
+
+----------
+
+
+If error: 'libshm.dylib Reason: image not found' - Run: `brew install libomp`
+
